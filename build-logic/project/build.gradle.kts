@@ -3,6 +3,7 @@ plugins {
 }
 
 dependencies {
+    implementation(androidGradlePlugin)
     implementation(com.diffplug.spotless)
     implementation(gradmGeneratedJar)
     implementation(kotlinGradlePlugin)
@@ -10,4 +11,5 @@ dependencies {
     implementation(me.omico.consensus.dsl)
     implementation(me.omico.consensus.git)
     implementation(me.omico.consensus.spotless)
+    implementation(org.jetbrains.compose)
 }
